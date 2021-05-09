@@ -25,6 +25,11 @@ Get list of wallet addresses:
 ```
 web3.eth.getAccounts()
 ```
+Get block number:
+```
+web3.eth.getBlockNumber()
+```
+
 # Interacting with smart contract:
 Call a smart contract function:
 ```
@@ -58,3 +63,4 @@ Transform Wei to Ether:
 ```
 web3.utils.fromWei('100000') /* notice the quotes */
 ```
+
